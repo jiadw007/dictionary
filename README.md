@@ -1,7 +1,4 @@
-COP 5536 Fall 2012
-Programming Project
-Due Date: October 26, 2012, 11:55 PM Eastern Time
-Submission Website: Sakai
+
 1. General
 1. Problem description
 The purpose of this project is to compare the relative performance of AVL, red-black, and B-trees as well
@@ -52,53 +49,6 @@ in sorted and level orders for B-trees in the non-hashed structures, inorder and
 structures.
 The command line for this mode is:
 $dictionary -u file-name // read the input from a file ‘file-name’
-3. Submission
-The following contents are required for submission:
-1. Makefile: If you do not use this file, provide detail instructions on how compile and run in your
-REPORT file.
-2. Source Program: Provide comments.
-3. REPORT:
- The report should be in PDF format.
- The report should contain your basic info: Name, UFID and UF Email account (Not CISE
-account).
- State what compiler you use, how to compile, and etc.
- Function prototypes showing the structure of your programs.
- A summary of result comparison: You should put first your expectation of the comparison
-before running your program: i.e. what you think about the relative performance of each
-scheme, and why.
- Please include the structure of your program. List of function prototypes is not enough.
-4. Experiment with your BTree codes (d and e) in random mode with n = 1000000 and determine
-the optimal BTree order. Your report should include the insert and search times for a few of the
-Btree orders experimented with.
-5. Experiment with your hashed structures with s values 3, 11 and 101. Your report should include
-the insert and search times for these s values experimented with.
-6. Run your program (all codes) in random mode for n = 1000000 and tabulate the reported average
-insert and search times for each of the six structures (one table for inserts, another for searches).
-Show these average times also using bar charts. For the BTree codes, use the optimal BTree order
-determined in 4. and the s value determined in 5.
-7. Based on your experiments with n=1000000, what recommendations can you make about a good
-way to implement a dictionary whose expected size is 1000000? Consider environments where
-worst-case performance is important as well as those in which only expected performance is
-important. How about environments where in addition to insert and search we also want to support
-nearest match searches?
-To submit, Please compress all your files together using a zip or the tar utility and submit to the
-Sakai system. You should look for Assignment->ADS Project for the submission. Your submission
-should be named LastName_FirstName.zip(tar). Please make sure the name you provided is the
-same as the same that appears on the Sakai system.
-Please DO NOT submit directly to a TA. All email submission will be ignored without further
-notification.
-Please note that the due day is a hard deadline. No late submission will be allowed. Any
-submission after the deadline will not be accepted.
-4. Grading Policy
-Grading will be based on the correctness and efficiency of algorithms. Below are some details of the
-grading policy.
-Correct implementation and execution: 60%
-Comments and readability: 15%
-REPORT: 25%
-5. Miscellanies
-Your implementations should be your own. You have to work by yourself for this project
-(discussion is allowed).
-Measuring execution time (C++)
 You can measure execution time like below:
 #include <time.h>
 clock_t Start, Time;
